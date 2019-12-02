@@ -1,0 +1,41 @@
+﻿生成启动时间为 2018-12-09 22:09:20。
+     1>项目“D:\01_workspace\Github\expcodes\c\01-reverse-engineering\WinProcess\trunk\WinProcess\WinProcess.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“x64\Release\WinProcess.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“x64\Release\WinProcess.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\04_work\vs\2010\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Release\WinProcess.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\04_work\vs\2010\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Release\WinProcess.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt ProcessModuleDlg.cpp WinProcess.cpp WinProcessDlg.cpp SystemProcessMgr.cpp
+         ProcessModuleDlg.cpp
+         WinProcess.cpp
+         WinProcessDlg.cpp
+         SystemProcessMgr.cpp
+     1>SystemProcessMgr.cpp(126): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>SystemProcessMgr.cpp(147): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>SystemProcessMgr.cpp(163): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 E:\04_work\vs\2010\VC\include\string.h(246) : 参见“stricmp”的声明
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0804" /Ix64\Release\ /nologo /fo"x64\Release\WinProcess.res" WinProcess.rc 
+       Link:
+         E:\04_work\vs\2010\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\01_workspace\Github\expcodes\c\01-reverse-engineering\WinProcess\trunk\x64\Release\WinProcess.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"x64\Release\WinProcess.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\01_workspace\Github\expcodes\c\01-reverse-engineering\WinProcess\trunk\x64\Release\WinProcess.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\01_workspace\Github\expcodes\c\01-reverse-engineering\WinProcess\trunk\x64\Release\WinProcess.lib" /MACHINE:X64 x64\Release\WinProcess.res
+         x64\Release\ProcessModuleDlg.obj
+         x64\Release\WinProcess.obj
+         x64\Release\WinProcessDlg.obj
+         x64\Release\stdafx.obj
+         x64\Release\SystemProcessMgr.obj
+         "exp-libs.lib"
+         正在生成代码
+         已完成代码的生成
+         WinProcess.vcxproj -> D:\01_workspace\Github\expcodes\c\01-reverse-engineering\WinProcess\trunk\x64\Release\WinProcess.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\01_workspace\Github\expcodes\c\01-reverse-engineering\WinProcess\trunk\x64\Release\WinProcess.exe;#1" /manifest x64\Release\WinProcess.exe.intermediate.manifest E:\04_work\vs\2010\VC\Include\Manifest\dpiaware.manifest
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\WinProcess.unsuccessfulbuild”。
+         正在对“x64\Release\WinProcess.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\01_workspace\Github\expcodes\c\01-reverse-engineering\WinProcess\trunk\WinProcess\WinProcess.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:16.05
